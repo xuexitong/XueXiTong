@@ -54,7 +54,7 @@ public class Menu extends AppCompatActivity {
         mBtnqiandao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转到Menu界面
+                //跳转到Menu界面//
                 Intent intent = new Intent(Menu.this,dakaqiandao.class);
                 startActivity(intent);
             }
